@@ -118,6 +118,8 @@ a:hover{
     color: gray;
 }
 
+/* left side */
+
 .overlay-left{
     height: 140px;
     background: rgba(140, 0, 168, 0.164);
@@ -149,6 +151,8 @@ a:hover{
     font-size: 12px;
     color: gray;
 }
+
+/* main side */
 
 .overlay-main{
     height: 140px;
@@ -183,6 +187,9 @@ a:hover{
     
 }
 
+
+/* right side */
+
 .overlay-right{
     height: 140px;
     background: rgba(140, 0, 168, 0.164);
@@ -214,12 +221,23 @@ a:hover{
     color: gray;
 }
 
+
 /* footer */
 
 .footer{
     height: 80px;
-    background-color: rgb(133, 52, 180);
+    /* background-color: rgb(133, 52, 180); */
+    margin-top: 100px;
+
 }
+
+.footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 80px;
+    font-size: 14px;
+}
+
 
 
 
