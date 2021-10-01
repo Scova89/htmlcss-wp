@@ -64,8 +64,15 @@ a:hover{
     background-size: cover;
     border-radius: 10px;
     background-position:center;
+   }
+
+.overlay{
     
-}
+    height: 350px;
+    background: rgba(140, 0, 168, 0.164);
+    margin: 0 auto;
+    border-radius: 10px;
+    }
 
 
 /* main */
