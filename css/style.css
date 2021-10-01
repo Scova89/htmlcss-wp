@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.margin-b{
+    margin-bottom: 20px;
+}
+
+body{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* header */
+
+.header-top{
+    height: 80px;
+    background-color: rgb(203, 113, 255);   
+}
+
+.jumbo{
+    height: 300px;
+    background-color: rgb(255, 228, 139);  
+}
+
+
+/* main */
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+    padding-bottom: 20px;
+}
+
+.titolo{
+    margin-bottom: 15px;
+}
+
+.side-left{
+    width: 19%;
+    float: left;
+    margin-right: 2%;
+}
+
+.main-content{
+    width: 58%;
+    float: left;
+}
+
+.side-right{
+    width: 19%;
+    float: left;
+    margin-left: 2%;
+}
+
+
+/* footer */
+
+.footer{
+    height: 80px;
+    background-color: rgb(133, 52, 180);
+}
+
+
+
+/* ****** debug ****** */
+
+.debug{
+    background-color: blue;
+    
+}
+
+.debug .titolo{
+    height: 60px;
+    background-color: rgb(145, 189, 255);
+}
+
+.debug .side-left{
+    height: 460px;
+    background-color: rgb(145, 189, 255);
+}
+
+.debug .main-content{
+    height: 460px;
+    background-color: rgb(145, 189, 255);
+}
+
+.debug .side-right{
+    height: 460px;
+    background-color: rgb(145, 189, 255);
+}
