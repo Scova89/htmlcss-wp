@@ -56,9 +56,15 @@ a:hover{
 }
 
 
+
 .jumbo{
-    height: 300px;
-    background-color: rgb(255, 228, 139);  
+    height: 350px;
+    /* background-color: rgb(255, 228, 139); */
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    background-position:center;
+    
 }
 
 
