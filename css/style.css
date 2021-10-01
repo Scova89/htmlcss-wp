@@ -118,21 +118,75 @@ a:hover{
     color: gray;
 }
 
+.overlay-left{
+    height: 140px;
+    background: rgba(140, 0, 168, 0.164);
+    margin: 0 auto;
+    border-radius: 10px;
+    }
+
+
 .side-left{
     width: 19%;
     float: left;
     margin-right: 2%;
+    background-image: url(../img/img-1.jpg);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+     
 }
+
+.side-left h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.side-left p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: gray;
+}
+
+.overlay-main{
+    height: 140px;
+    background: rgba(140, 0, 168, 0.164);
+    margin: 0 auto;
+    border-radius: 10px;
+    }
 
 .main-content{
     width: 58%;
     float: left;
+    border-radius: 10px;
+    background-image: url(../img/banner-2.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 140px;
+    background-position: center;
+}
+
+.main-content h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.main-content p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: gray;
 }
 
 .side-right{
     width: 19%;
     float: left;
     margin-left: 2%;
+    border-radius: 10px;
 }
 
 
